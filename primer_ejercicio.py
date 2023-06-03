@@ -1,4 +1,4 @@
-# Proyecto modulo 2
+# Proyecto modulo 2 
 
 palabra= input( "Enter a word that contains 4 to 8 characters: ")
 longitud= len(palabra)
@@ -18,5 +18,6 @@ if longitud < 4:
 
 if longitud >  8:
     print(f"Too many letters. Have {longitud} letters")
+    
 
 
